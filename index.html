@@ -217,20 +217,12 @@
         //  });
                 console.log(emailid);
 
-        mixpanel.identify(userid);
-
-        mixpanel.people.set({
-         "$first_name": userid, 
-        "$email": emailid, // only special properties need the $
-
-        "$created":  new Date(),
-        "$last_login": new Date(), // properties can be dates...
-
-        "credits": 150, // ...or numbers
-         "utm_source": utm_source,
-
-        "gender": "Male" // feel free to define your own properties
-    });
+                mixpanel.identify(userid);
+                mixpanel.people.set({
+                    "$first_name": userid,
+                    "$created": "2013-04-01T09:02:00",
+                    "$email": emailid
+                });
           };
 
     </script>
