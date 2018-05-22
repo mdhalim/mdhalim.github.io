@@ -50,8 +50,10 @@
 
 
     mixpanel.track("Page Loaded");
+    mixpanel.identify("12148");
 
-    function submitForm({}
+
+    function submitForm({
         var email = document.getElementById("yourEmail")
         console.log(email);
 
@@ -63,7 +65,6 @@
     });
 
     var email = document.getElementById("yourEmail")
-    mixpanel.identify("12148");
     mixpanel.people.set({
         "$email": email, // only special properties need the $
 
@@ -74,6 +75,7 @@
 
         "gender": "Male" // feel free to define your own properties
     });
+
     </script>
     <!-- end Mixpanel -->
     <style>
