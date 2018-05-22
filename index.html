@@ -206,19 +206,15 @@
 
     function submitForm(){
                 var email = document.getElementById("yourEmail") ;
-                var emailid = email.value; 
-
-        console.log("fhfghjgjhg--",emailid);
-        
+                var emailid = email.value;         
 
         // mixpanel.register({
         //     'Email': emailid,
         //     'Account Type': 'Free'
         // });
+                console.log(emailid);
 
-    };
-
-        mixpanel.identify(emailid);
+        mixpanel.identify('emailid');
 
         mixpanel.people.set({
         "$email": emailid, // only special properties need the $
@@ -230,6 +226,7 @@
 
         "gender": "Male" // feel free to define your own properties
     });
+          };
 
     </script>
 
