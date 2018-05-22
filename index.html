@@ -13,6 +13,15 @@ mixpanel.init("93568bbf75b397a4dd5e511765d97240");
 
                     mixpanel.track("Video play");
 
+                    function submitForm() {
+                        var email = document.getElementById("yourEmail")
+                        mixpanel.register({
+                            'Email': email,
+                            'Account Type': 'Free'
+                        });
+
+                    }
+
 </script><!-- end Mixpanel -->
     
 
