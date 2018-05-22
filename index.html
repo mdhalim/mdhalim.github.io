@@ -206,23 +206,28 @@
 
     function submitForm(){
                 var email = document.getElementById("yourEmail") ;
-                var emailid = email.value;         
+                var emailid = email.value;  
+                var username = document.getElementById("username") ;
+                var userid = username.value;   
+                console.log(userid);         
 
         // mixpanel.register({
-        //     'Email': emailid,
+        //    'Email': emailid,
         //     'Account Type': 'Free'
-        // });
+        //  });
                 console.log(emailid);
 
-        mixpanel.identify('emailid');
+        mixpanel.identify(userid);
 
         mixpanel.people.set({
+         "$first_name": userid, 
         "$email": emailid, // only special properties need the $
 
-        "$created": "2011-03-16 16:53:54",
+        "$created":  new Date(),
         "$last_login": new Date(), // properties can be dates...
 
         "credits": 150, // ...or numbers
+         "utm_source": utm_source,
 
         "gender": "Male" // feel free to define your own properties
     });
