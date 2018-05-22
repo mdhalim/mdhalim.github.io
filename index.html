@@ -50,21 +50,7 @@
 
 
     mixpanel.track("Page Loaded");
-    mixpanel.identify("12148");
 
-
-    function submitForm({
-        var email = document.getElementById("yourEmail")
-        console.log(email);
-
-        mixpanel.register({
-            'Email': email,
-            'Account Type': 'Free'
-        });
-
-    });
-
-    var email = document.getElementById("yourEmail")
     mixpanel.people.set({
         "$email": email, // only special properties need the $
 
@@ -216,5 +202,35 @@
         </div>
     </div>
 </body>
+<script>
+
+    function submitForm(){
+                var email = document.getElementById("yourEmail") ;
+                var emailid = email.value; 
+
+        console.log("fhfghjgjhg--",emailid);
+        
+
+        // mixpanel.register({
+        //     'Email': emailid,
+        //     'Account Type': 'Free'
+        // });
+
+    };
+
+        mixpanel.identify(emailid);
+
+        mixpanel.people.set({
+        "$email": emailid, // only special properties need the $
+
+        "$created": "2011-03-16 16:53:54",
+        "$last_login": new Date(), // properties can be dates...
+
+        "credits": 150, // ...or numbers
+
+        "gender": "Male" // feel free to define your own properties
+    });
+
+    </script>
 
 </html>
