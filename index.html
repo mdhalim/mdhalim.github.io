@@ -51,16 +51,6 @@
 
     mixpanel.track("Page Loaded");
 
-    // mixpanel.people.set({
-    //     "$email": email, // only special properties need the $
-
-    //     "$created": "2011-03-16 16:53:54",
-    //     "$last_login": new Date(), // properties can be dates...
-
-    //     "credits": 150, // ...or numbers
-
-    //     "gender": "Male" // feel free to define your own properties
-    // });
 
     </script>
     <!-- end Mixpanel -->
@@ -209,22 +199,35 @@
                 var emailid = email.value;  
                 var username = document.getElementById("username") ;
                 var usern = username.value;   
-                console.log(usern);         
+                console.log(usern);  
 
-        mixpanel.register({
-           'Email': emailid,
-            'Account Type': 'Free'
-         });
+
+
+    mixpanel.people.set({
+        "$email": emailid, // only special properties need the $
+
+        "$created": "2011-03-16 16:53:54",
+        "$last_login": new Date(), // properties can be dates...
+
+        "credits": 150, // ...or numbers
+
+        "gender": "Male" // feel free to define your own properties
+    });       
+
+        // mixpanel.register({
+        //    'Email': emailid,
+        //     'Account Type': 'Free'
+        //  });
                 console.log(emailid);
 
-                mixpanel.identify("hey");
+                // mixpanel.identify("hey");
 
-                mixpanel.people.set({
-                    "$first_name": usern,
-                    "$created": "2013-04-01T09:02:00",
-                    "$email": emailid,
-                    "Source": source()
-                });
+                // mixpanel.people.set({
+                //     "$first_name": usern,
+                //     "$created": "2013-04-01T09:02:00",
+                //     "$email": emailid,
+                //     "Source": source()
+                // });
           };
 
     </script>
