@@ -203,36 +203,34 @@
                 console.log(usern);  
                 console.log(emailid);
 
-                mixpanel.track("SignUp Completed")
 
+    mixpanel.identify(emailid);
+    mixpanel.people.set({
+        "$email": emailid, // only special properties need the $
 
-    mixpanel.identify("123");
-    // mixpanel.people.set({
-    //     "$email": emailid, // only special properties need the $
+        "$created": "2011-03-16 16:53:54",
+        "$last_login": new Date(), // properties can be dates...
 
-    //     "$created": "2011-03-16 16:53:54",
-    //     "$last_login": new Date(), // properties can be dates...
+        "credits": 150, // ...or numbers
 
-    //     "credits": 150, // ...or numbers
+        "gender": "Male" // feel free to define your own properties
+    });       
 
-    //     "gender": "Male" // feel free to define your own properties
-    // });       
-
-    //     mixpanel.register({
-    //        'Email': emailid,
-    //         'Account Type': 'Free'
-    //      });
+        mixpanel.register({
+           'Email': emailid,
+            'Account Type': 'Free'
+         });
                 
 
-    //             // mixpanel.identify("hey");
+                // mixpanel.identify("hey");
 
-    //             // mixpanel.people.set({
-    //             //     "$first_name": usern,
-    //             //     "$created": "2013-04-01T09:02:00",
-    //             //     "$email": emailid,
-    //             //     "Source": source()
-    //             // });
-    //       };
+                // mixpanel.people.set({
+                //     "$first_name": usern,
+                //     "$created": "2013-04-01T09:02:00",
+                //     "$email": emailid,
+                //     "Source": source()
+                // });
+          };
 
     </script>
 
