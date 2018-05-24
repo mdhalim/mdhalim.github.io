@@ -51,16 +51,16 @@
 
     mixpanel.track("Page Loaded");
 
-    mixpanel.people.set({
-        "$email": email, // only special properties need the $
+    // mixpanel.people.set({
+    //     "$email": email, // only special properties need the $
 
-        "$created": "2011-03-16 16:53:54",
-        "$last_login": new Date(), // properties can be dates...
+    //     "$created": "2011-03-16 16:53:54",
+    //     "$last_login": new Date(), // properties can be dates...
 
-        "credits": 150, // ...or numbers
+    //     "credits": 150, // ...or numbers
 
-        "gender": "Male" // feel free to define your own properties
-    });
+    //     "gender": "Male" // feel free to define your own properties
+    // });
 
     </script>
     <!-- end Mixpanel -->
@@ -208,8 +208,8 @@
                 var email = document.getElementById("yourEmail") ;
                 var emailid = email.value;  
                 var username = document.getElementById("username") ;
-                var userid = username.value;   
-                console.log(userid);         
+                var usern = username.value;   
+                console.log(usern);         
 
         // mixpanel.register({
         //    'Email': emailid,
@@ -217,12 +217,12 @@
         //  });
                 console.log(emailid);
 
-                mixpanel.identify(userid);
+                mixpanel.identify(usern);
                 mixpanel.people.set({
                     "$first_name": userid,
                     "$created": "2013-04-01T09:02:00",
                     "$email": emailid,
-                    "Source": source()}
+                    "Source": source()
                 });
           };
 
