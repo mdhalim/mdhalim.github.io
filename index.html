@@ -207,28 +207,22 @@
 
 
     mixpanel.identify("123");
-    // mixpanel.people.set({
-    //     "$email": emailid, // only special properties need the $
+    mixpanel.people.set({
+        "$email": emailid, // only special properties need the $
 
-    //     "$created": "2011-03-16 16:53:54",
-    //     "$last_login": new Date(), // properties can be dates...
+        "$created": "2011-03-16 16:53:54",
+        "$last_login": new Date(), // properties can be dates...
 
-<<<<<<< HEAD
+
         "gender": "Male",
         
-        "Source": source() // feel free to define your own properties
     });       
-=======
-    //     "credits": 150, // ...or numbers
->>>>>>> parent of 00f8148... Revert "mixpanel integrated"
+            
 
-    //     "gender": "Male" // feel free to define your own properties
-    // });       
-
-    //     mixpanel.register({
-    //        'Email': emailid,
-    //         'Account Type': 'Free'
-    //      });
+        mixpanel.register({
+           'Email': emailid,
+            'Account Type': 'Free'
+         });
                 
 
     //             // mixpanel.identify("hey");
