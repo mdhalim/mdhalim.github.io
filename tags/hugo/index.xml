@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo on BlitzLiving:</title>
+    <title>Hugo on BlitzLiving</title>
     <link>/tags/hugo/</link>
-    <description>Recent content in Hugo on BlitzLiving:</description>
+    <description>Recent content in Hugo on BlitzLiving</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>Copyright © 2008–2018, MD Halim; all rights reserved.</copyright>
+    <copyright>Copyright © 2008–2018; All rights reserved.</copyright>
     <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
