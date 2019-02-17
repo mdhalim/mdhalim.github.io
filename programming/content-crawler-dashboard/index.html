@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>A content dashboard for storing, scraping and editing crawled articles. - BlitzLiving</title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="referrer" content="no-referrer">
+    <meta name="description" content="">
+    <meta property="og:site_name" content="BlitzLiving" />
+    <meta property="og:locale" content="nn_NO" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="/programming/content-crawler-dashboard/" />
+    <meta property="og:title" content="A content dashboard for storing, scraping and editing crawled articles." />
+    <meta property="og:image" content="//img/cover.jpg" />
+    <meta property="og:description" content="" />
+
+    
+
+    <meta property="twitter:title" content="A content dashboard for storing, scraping and editing crawled articles." />
+    <meta property="twitter:image" content="//img/cover.jpg" />
+    <meta property="twitter:card" content="summary" />
+    <meta property="twitter:description" content="" />
+
+    
+
+    <link rel="canonical" href="/programming/content-crawler-dashboard/">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha256-azvvU9xKluwHFJ0Cpgtf0CYzK7zgtOznnzxV4924X1w=" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="/css/main.css" />
+
+    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/vs.min.css" integrity="sha256-w6kCMnFvhY2tI1OnsYR/rb5DG9yFGodJknvFZOkp51E=" crossorigin="anonymous" />
+    
+
+    
+
+    <link rel="shortcut icon"
+        href="https://gokmengorgen.net/img/laughing-man-favicon.png">
+
+    
+
+    <noscript>
+        <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,700,700i" rel="stylesheet">
+    </noscript>
+</head>
+
+<body>
+    
+    <div class="my-4 my-md-5 header">
+    <div class="container">
+        <div class="row">
+            <div class="col-auto offset-md-1 d-none d-md-block">
+                
+                    <a href="/">
+                        <img class="logo" src="/img/cover.jpg" alt="logo">
+                    </a>
+                
+            </div>
+            <div class="col-auto align-self-center mr-auto">
+                <a href="/">
+                    <h1 class="font-weight-bold name">BlitzLiving</h1>
+                </a>
+
+                <ul class="nav nav-primary">
+                    
+                        <li class="nav-item">
+                            <a class="text-uppercase nav-link text-blog" href="/blog/">
+                                
+                                Blurbs
+                            </a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="text-uppercase nav-link text-about" href="/about/">
+                                
+                                About
+                            </a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="text-uppercase nav-link text-CodeList" href="/codelist">
+                                
+                                CodeList
+                            </a>
+                        </li>
+                    
+
+                    
+                </ul>
+
+                <ul class="nav nav-secondary">
+                    
+                        <li class="nav-item">
+                            <a class="text-uppercase font-weight-bold nav-link text-Startups" href="/startups">
+                                
+                                StartUps
+                            </a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="text-uppercase font-weight-bold nav-link text-programming" href="/programming/">
+                                
+                                Programming
+                            </a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="text-uppercase font-weight-bold nav-link text-growth" href="/growth/">
+                                
+                                Growth
+                            </a>
+                        </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <div class="content">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-12 col-md-10">
+                    <h1 class="mx-0 mx-md-4">A content dashboard for storing, scraping and editing crawled articles.</h1>
+                    <div class="markdown">
+                        
+    
+
+<h2 id="goals">Goals:</h2>
+
+<ul>
+<li>To create a comprehensive repository of blogposts from multiple sources.</li>
+<li>Shorten time required to find relevant items to post read and search.</li>
+<li>To provide our users a steady stream of content relevant to the Interests &amp; Topics selected by them.</li>
+<li>Gain insights from the extracted content to create our own machine learning models for classifying items.</li>
+</ul>
+
+<h2 id="phases">Phases</h2>
+
+<ol>
+<li><p>Phase 1</p>
+
+<ul>
+<li>Setting up a scalable crawling infrastructure in the backend for extracting content from platforms with ready to use APIs eg. Youtube, SoundCloud, Eventbrite, Udemy, Coursera, RSS Feeds.</li>
+<li>Storing the extracted content and relevant meta-data in our database.</li>
+<li>Creation of a Dashboard for the internal team to view extracted items and allow editing or adding tags.</li>
+</ul></li>
+
+<li><p>Phase 2</p>
+
+<ul>
+<li>Enhancement to the Dashboard for adding new sources from the front-end.</li>
+<li>Tweaking the backend to support upload of custom crawler and parsers from the front-end for those new sources.</li>
+<li>Adding functions for refreshing the database to fetch new contents from the sources.</li>
+</ul></li>
+
+<li><p>Phase 3</p>
+
+<ul>
+<li>Setting up Machine Learning infrastructure to train the data with our tagged datasets according to our Topics and Interests.</li>
+<li>Identify new classification models to enrich our existing database.</li>
+<li>Have our own algorithm for rating content with a Z-Score to allow our internal team to find the most relevant content to post on Ceekr.</li>
+</ul></li>
+</ol>
+
+<h2 id="data-sources">Data Sources</h2>
+
+<p>Most sources can be classified into following:</p>
+
+<ul>
+<li>API Based: Time required per source: 2 hours</li>
+<li>RSS Feeds: 1 hour per source and 15 mins every week for new content.</li>
+<li>Websites which do not have APIs or RSS Feeds: 1-4 Days depending on the site structure.</li>
+</ul>
+
+<p>The sources can be further classified into following:</p>
+
+<ul>
+<li>Youtube Channels</li>
+<li>RSS Feeds: Links which provides syndicated feed of all posts from a particular website</li>
+<li>Web Link- Top Level URLs which needs to be crawled by us by writing a scraper to fetch all articles or video links.</li>
+<li>Updates: Some of the URLs has static content which isn’t updated frequently and one time scrape would suffice but some URLs might contain updated content and therefore, the sources need to be classified as such in the dashboard</li>
+</ul>
+
+<h2 id="functional-requirements">Functional Requirements</h2>
+
+<ol>
+<li>Authentication and Access Control
+
+<ul>
+<li>Sign-in/Sign out for an admin account</li>
+<li>Sign-in/Sign out for a user account</li>
+<li>Add/remove new users account with the following access control
+
+<ul>
+<li>Access restricted to Content Dashboard and Editing &amp; Publishing of Posts</li>
+<li>Access to add new sources</li>
+<li>Access to viewlogs</li>
+</ul></li>
+</ul></li>
+<li>Adding Sources
+
+<ul>
+<li>Since sources can be of either generic type such as Youtube Channels/RSS Feeds or they might  require a custom parsers, therefore we would need to specify the category while adding new sources.</li>
+</ul></li>
+<li>Category of Sources
+
+<ol>
+<li>RSS Feeds</li>
+<li>Videos: Youtube/Vimeo</li>
+<li>Books: Goodreads</li>
+<li>Events: EventBrite/EventsHigh</li>
+<li>Courses: Coursera, eDX, Udemy</li>
+<li>Quotes: BrainyQuote</li>
+</ol></li>
+<li>Features of “Adding Sources” Screen
+
+<ul>
+<li>Adding a new source</li>
+<li>URL</li>
+<li>Category</li>
+<li>Interest &amp; Topic Selection (if already known)</li>
+<li>Option to upload parser</li>
+<li>Viewing</li>
+<li>List of all sources</li>
+<li>Search Bar</li>
+<li>Sorting according to Interests &amp; Topics</li>
+<li>Deleting</li>
+<li>Ability to remove sources</li>
+</ul></li>
+<li>Content Dashboard
+
+<ul>
+<li>The content dashboard as the name suggest is the main interface for end-users to view the scraped content in a tabular format with their associated tags and topics.
+Also, the dashboard has to provide the features of “Adding Interests &amp; Topics” and other search and sorting filters for users.</li>
+</ul></li>
+</ol>
+
+<p><strong>Features of the content dashboard:</strong></p>
+
+<ol>
+<li>List of all sources</li>
+<li>List of content items from a particular source.</li>
+<li>Expandable View of the item which displays the complete details of a particular item.</li>
+<li>Ability to add or edit “Interests and Topics” to each and every items</li>
+<li>Search Bar</li>
+<li>Sort by
+
+<ul>
+<li>Interests</li>
+<li>Topics</li>
+<li>Sort By Social Sharing Nos.</li>
+<li>Sort By Ratings<br /></li>
+<li>Sort By No. of plays in case of Videos</li>
+</ul></li>
+</ol>
+
+<h2 id="ui-flow">UI Flow</h2>
+
+<ol>
+<li><p>Adding Interests &amp; Topics</p>
+
+<ul>
+<li><img src="/img/crawler/add_interests.png" style="width:600px;" /></li>
+</ul></li>
+
+<li><p>Adding a new Data Source</p>
+
+<ul>
+<li><img src="/img/crawler/add_sources.png" style="width:600px;" /></li>
+</ul></li>
+
+<li><p>Preview results from newly added Data Sources</p>
+
+<ul>
+<li><img src="/img/crawler/preview.png" style="width:600px;" /></li>
+</ul></li>
+
+<li><p>Expanded View of a results obtained from newly added data source</p>
+
+<ul>
+<li><img src="/img/crawler/content_detailed_View.png" style="width:600px;" /></li>
+</ul></li>
+
+<li><p>View all saved Data Sources</p>
+
+<ul>
+<li><img src="/img/crawler/sources_results.png" style="width:600px;" /></li>
+</ul></li>
+
+<li><p>View list of items from a source</p>
+
+<ul>
+<li><img src="/img/crawler/dashboard_1.png" style="width:600px;" /></li>
+</ul></li>
+
+<li><p>Edit Item</p>
+
+<ul>
+<li><img src="/img/crawler/edit_item.png" style="width:600px;" /></li>
+</ul></li>
+</ol>
+
+<h2 id="technical-architecture">Technical Architecture</h2>
+
+<p><img src="/img/crawler/technical.png" style="width:600px;" /></p>
+
+<h2 id="parsers-types">Parsers Types</h2>
+
+<ul>
+<li>Sources supporting APIs</li>
+</ul>
+
+<blockquote>
+<p>Since most of the content-sources in our repository has pre-defined APIs for accessing content. We can write functions for API access on AWS Lambda and trigger them once an entry of a matching source is placed in DynamoDB.</p>
+</blockquote>
+
+<pre><code>1. Medium Articles
+    - One time custom scraper to scrape all articles from Medium publications
+2. SoundCloud API
+    - One time custom scraper to scrape podcasts from SoundCloud
+3. Coursera API
+4. Udemy API
+5. EventBrite API
+6. EventsHigh API
+7. Youtube also provides an API to retrieve Videos and their meta-data from a particular Channel or Youtube URL
+
+* ![Mercury Web-Parser API](https://mercury.postlight.com/web-parser/)
+</code></pre>
+
+<ul>
+<li>Custom Parsers
+
+<ul>
+<li>Using the front-end, a user should be able to upload the functions to be stored in AWS Lambda with a uniqueID for a custom-scraper</li>
+<li>Top levels URLs are parsed through a custom crawler script to generate a list of links which are temporarily stored in DynamoDB</li>
+<li>Once the top-level URLs are crawled, another Lambda Function will be triggered to process each links and store their JSON in an ElasticCache Node</li>
+<li>The front-end would then display the parsed content in the dashboard and if its accepted by the user, the json would then be stored in the DynamoDB.</li>
+</ul></li>
+</ul>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="my-4 footer">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-sm-12 col-md-5">
+                
+                    <div class="mx-0 mx-md-4 mb-2 text-center text-md-left">
+                        
+                            <a href="/license">© 2018 by Md Haim</a>
+                        
+                    </div>
+                
+            </div>
+            <div class="col-sm-12 col-md-5">
+                <div class="mx-0 mx-md-4 text-center text-md-right">
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+                        <a href="/index.xml" class="mx-1 ml-md-2 mr-md-0">
+                            <img class="icon" src="/img/rss.svg" alt="rss" />
+                        </a>
+                    
+
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha256-63ld7aiYP6UxBifJWEzz87ldJyVnETUABZAYs5Qcsmc=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webfont/1.6.28/webfontloader.js" integrity="sha256-4O4pS1SH31ZqrSO2A/2QJTVjTPqVe+jnYgOWUVr7EEc=" crossorigin="anonymous"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Raleway:400,600,700', 'Merriweather:300,300i,700,700i']
+            }
+        });
+    </script>
+
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+        
+        <script>
+            window.addEventListener('load', function() {
+                hljs.initHighlighting();
+            }, true);
+        </script>
+    
+
+    
+
+    
+
+    
+    
+</body>
+
+</html>
