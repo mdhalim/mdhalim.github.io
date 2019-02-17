@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on BlitzLiving | Notes by Halim</title>
+    <link>https://mdhalim.github.io/categories/</link>
+    <description>Recent content in Categories on BlitzLiving | Notes by Halim</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://mdhalim.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://mdhalim.github.io/categories/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdhalim.github.io/categories/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Growth</title>
+      <link>https://mdhalim.github.io/categories/growth/</link>
+      <pubDate>Sat, 04 Nov 2017 12:00:00 +0000</pubDate>
+      
+      <guid>https://mdhalim.github.io/categories/growth/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tech</title>
+      <link>https://mdhalim.github.io/categories/tech/</link>
+      <pubDate>Wed, 11 Apr 2018 09:32:00 +0000</pubDate>
+      
+      <guid>https://mdhalim.github.io/categories/tech/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tips</title>
+      <link>https://mdhalim.github.io/categories/tips/</link>
+      <pubDate>Tue, 13 Mar 2018 18:00:00 +0000</pubDate>
+      
+      <guid>https://mdhalim.github.io/categories/tips/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
