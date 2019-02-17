@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>StartUps on BlitzLiving:</title>
+    <link>/startups/</link>
+    <description>Recent content in StartUps on BlitzLiving:</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2008–2018, MD Halim; all rights reserved.</copyright>
+    <lastBuildDate>Fri, 28 Sep 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/startups/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>On Product Requirement Documentation</title>
+      <link>/startups/on-prd/</link>
+      <pubDate>Fri, 28 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/startups/on-prd/</guid>
+      <description>On Writing Product Documentation If there is already a backlog of issues/bugs. The first should be to pick up the most pressing problems by talking to different stakeholders (Support/Sales/Marketing) and creating a priotization matrix ranking each issue based on the prioties assigned by different team.
+ Drop-offs during Onboarding | Marketing |  Defining The Problem: Conversion sucks. 18% but should be able to do 30% (need source). What else have we tried here, and why is this worth trying?</description>
+    </item>
+    
+  </channel>
+</rss>

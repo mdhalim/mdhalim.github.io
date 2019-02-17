@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BlitzLiving on BlitzLiving:</title>
+    <link>/</link>
+    <description>Recent content in BlitzLiving on BlitzLiving:</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2008–2018, MD Halim; all rights reserved.</copyright>
+    <lastBuildDate>Wed, 09 Apr 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Building A Decentralized Giving Network</title>
+      <link>/blog/blockgiving/</link>
+      <pubDate>Fri, 28 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/blockgiving/</guid>
+      <description>Colony Hackathon Submission A decentalized, self-perpuating, cross-border giving network on top of COLONY Project Description Goal: To create a self-perpetuating, decentralized, cross-borders, Giving Platform.
+Overview: We aim to create a platform where users can create projects, work on projects and fund projects to help people around the globe. By the nature of design of the platform, there is a complete transparency in the way the funding works and the way funds are disbursed.</description>
+    </item>
+    
+    <item>
+      <title>On Product Requirement Documentation</title>
+      <link>/startups/on-prd/</link>
+      <pubDate>Fri, 28 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/startups/on-prd/</guid>
+      <description>On Writing Product Documentation If there is already a backlog of issues/bugs. The first should be to pick up the most pressing problems by talking to different stakeholders (Support/Sales/Marketing) and creating a priotization matrix ranking each issue based on the prioties assigned by different team.
+ Drop-offs during Onboarding | Marketing |  Defining The Problem: Conversion sucks. 18% but should be able to do 30% (need source). What else have we tried here, and why is this worth trying?</description>
+    </item>
+    
+    <item>
+      <title>Migrate to Hugo from Jekyll</title>
+      <link>/blog/migrate-from-jekyll/</link>
+      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/migrate-from-jekyll/</guid>
+      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
+▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
+    </item>
+    
+    <item>
+      <title>Programming Lists</title>
+      <link>/programming/</link>
+      <pubDate>Mon, 09 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/programming/</guid>
+      <description>With this theme, it is possible to add small sections that only contains one page like this. It will automatically appears in the header, at the end._
+Avatar
+Hey There
+I am Halim, a CS graduate turned PM, I love brainstorming new ideas, bringing people together and getting stuff done.
+I have a strong interest in system design, cryptocurrencies, Decentralization and the future of humanity.
+I got interested in Product Management after attending a Google Develper Conference in India in Nov 2016 where I saw various Google PMs launching new features and talking about their projects on stage.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Growth Hacking</title>
+      <link>/growth/getting-started-with-growth/</link>
+      <pubDate>Mon, 02 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/growth/getting-started-with-growth/</guid>
+      <description>Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture.
+Save it somewhere specific as we will be using it in the next step.
+More complete instructions are available at Install Hugo
+Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
+Follow the following steps:
+ Clone the Hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
+    </item>
+    
+    <item>
+      <title>About Hugo</title>
+      <link>/about/</link>
+      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Hugo is the world’s fastest framework for building websites. It is written in Go.
+It makes use of a variety of open source projects including:
+ https://github.com/russross/blackfriday https://github.com/alecthomas/chroma https://github.com/muesli/smartcrop https://github.com/spf13/cobra https://github.com/spf13/viper  Learn more and contribute on GitHub.</description>
+    </item>
+    
+    <item>
+      <title>Reading List</title>
+      <link>/read/</link>
+      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/read/</guid>
+      <description>Programming #books #articles #projects #blogs #etl #tutorials #coderepo #talks #projects #frontend #frameworks #walkthroughs #ideas #deployment #scaling #servers #devops
+Developers Blogs #read #golang #architects The Irrationally Supportive Mentor | Lukas Biewald CROWDFLOWER Founder https://lukasbiewald.com/2013/10/09/the-irrationally-supportive-mentor/ Brendan Eich JoelSpolsky CodinHorror VitaliK.ca Balaji Srinivasan Andrew Chen a16z blog USV blog Naval Pmarca Mozilla&#39;s Blog boz.com jvns.ca recurse center The Ultimate List of Software Developer Blogs - Simple Programmer https://simpleprogrammer.com/ultimate-list-software-developer-blogs/ Polyglot.Ninja() – Tales of a Polyglot Developer http://polyglot.</description>
+    </item>
+    
+    <item>
+      <title>(Hu)go Template Primer</title>
+      <link>/blog/goisforlovers/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/goisforlovers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Hugo</title>
+      <link>/blog/hugoisforlovers/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/hugoisforlovers/</guid>
+      <description>Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture.
+Save it somewhere specific as we will be using it in the next step.
+More complete instructions are available at Install Hugo
+Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
+Follow the following steps:
+ Clone the Hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
+    </item>
+    
+  </channel>
+</rss>
