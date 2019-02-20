@@ -28,6 +28,11 @@
   </url>
   
   <url>
+    <loc>/about/</loc>
+    <lastmod>2019-01-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/growth/</loc>
     <lastmod>2018-04-09T00:00:00+00:00</lastmod>
   </url>
@@ -40,11 +45,6 @@
   <url>
     <loc>/programming/</loc>
     <lastmod>2018-04-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/about/</loc>
-    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
