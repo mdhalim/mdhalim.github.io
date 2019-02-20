@@ -1,6 +1,6 @@
 /* Global styles */
 body {
-    font-family: "-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif";
+    font-family: "Raleway";
 }
 
 a {
@@ -109,7 +109,7 @@ a:hover {
 }
 
 .content .markdown {
-    font-family: "-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif";
+    font-family: "Merriweather";
     font-size: 1.1em;
     line-height: 1.75em;
     color: #313537;

@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Development - BlitzLiving:</title>
+    <title>On Product Requirement Documentation - BlitzLiving:</title>
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
     <meta name="referrer" content="no-referrer">
@@ -12,21 +12,21 @@
     <meta property="og:site_name" content="BlitzLiving:" />
     <meta property="og:locale" content="nn_NO" />
     <meta property="og:type" content="article" />
-    <meta property="og:url" content="/categories/development/" />
-    <meta property="og:title" content="Development" />
+    <meta property="og:url" content="/startups/on-prd/" />
+    <meta property="og:title" content="On Product Requirement Documentation" />
     <meta property="og:image" content="/img/cov.jpg" />
     <meta property="og:description" content="" />
 
     
 
-    <meta property="twitter:title" content="Development" />
+    <meta property="twitter:title" content="On Product Requirement Documentation" />
     <meta property="twitter:image" content="/img/cov.jpg" />
     <meta property="twitter:card" content="summary" />
     <meta property="twitter:description" content="" />
 
     
 
-    <link rel="canonical" href="/categories/development/">
+    <link rel="canonical" href="/startups/on-prd/">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha256-azvvU9xKluwHFJ0Cpgtf0CYzK7zgtOznnzxV4924X1w=" crossorigin="anonymous" />
 
@@ -41,8 +41,6 @@
     <link rel="shortcut icon"
         href="https://gokmengorgen.net/img/laughing-man-favicon.png">
 
-    
-        <link href="/categories/development/index.xml" rel="alternate" type="application/rss+xml" title="BlitzLiving:" />
     
 
     <noscript>
@@ -136,23 +134,59 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-sm-12 col-md-10">
+                    <h1 class="mx-0 mx-md-4">On Product Requirement Documentation</h1>
                     <div class="markdown">
-                        <h1>Posts about Development</h1>
-                        <ul>
-                            
-                                <li class="pl-3 post-item">
-    <span class="meta">Apr 02, 2014</span>
-    <a href="/blog/goisforlovers/"><span>(Hu)go Template Primer</span></a>
-</li>
+                        
+    
 
-                            
-                                <li class="pl-3 post-item">
-    <span class="meta">Apr 02, 2014</span>
-    <a href="/blog/hugoisforlovers/"><span>Getting Started with Hugo</span></a>
-</li>
+<h1 id="on-writing-product-documentation">On Writing Product Documentation</h1>
 
-                            
-                        </ul>
+<p>If there is already a backlog of issues/bugs. The first should be to pick up the most pressing problems by talking to different stakeholders (Support/Sales/Marketing) and creating a priotization matrix ranking each issue based on the prioties assigned by different team.</p>
+
+<ol>
+<li>Drop-offs during Onboarding | Marketing |</li>
+</ol>
+
+<h3 id="defining-the-problem">Defining The Problem:</h3>
+
+<p>Conversion sucks. 18% but should be able to do 30% (need source).
+What else have we tried here, and why is this worth trying? Need to look up our past support case summary and survey results.</p>
+
+<p>Goals
+Prove live chat is worth it. Be ok with scrapping if the results stink.
+Ideally have an answer by start of Dec so we can ask for support resources in Q1.</p>
+
+<p>Chat vendor?
+Look at the top few and pick one: Olark, SnapEngage, etc.
+What does the UX look like and how much customization is needed and possible?
+We need cust ops to manage setting their hours, and agents, without a code push!
+What is the integration cost? Just drop in a Javascript snippet, or…?
+How much reporting do we get from the tool vs. what do we need to build in house?
+Can we pass in some variables for our own custom reporting? Like user_id?
+Can we ignore integrating with our support ticketing ZenDesk instance right now?</p>
+
+<p>Success criteria:
+Need to model out cost of one chat person, vs. how many chats they can do vs. how many new conversions those chats can bring.
+If we can’t make this work in Excel, no point in trying the test.
+Must get early feedback from cust ops manager and finance.</p>
+
+<p>Running the test
+How much traffic to send? It’s a function of: number of people who click to chat, average time per chat, number of simultaneous chats we’ll allow, wait time, etc.
+We can model this, but it’s not worth it given we have no data and lots of assumptions.
+Instead, let’s roll with a guess, like 20% of traffic, and slowly dial up a knob till we know.
+How many days do we need to run this? Do we need to worry about traffic seasonality?</p>
+
+<p>What reports do we need?
+I want to know conversion, revenue, and total orders in the test and control.
+Also how many people in the test actually engaged (initiated a chat).</p>
+
+<p>Anything else?
+What about international? I’d say skip it for now.
+Mobile? Fer sure. 30% are checking out on their phones.
+Page load times? Make sure this chat widget doesn’t slow down the page!</p>
+
+
+
                     </div>
                 </div>
             </div>
