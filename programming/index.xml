@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming on BlitzLiving</title>
+    <link>/programming/</link>
+    <description>Recent content in Programming on BlitzLiving</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2008–2018; All rights reserved.</copyright>
+    <lastBuildDate>Mon, 09 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/programming/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Building A Decentralized, self-perpetuating, transparent Giving Network</title>
+      <link>/programming/blockgiving/</link>
+      <pubDate>Fri, 28 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/programming/blockgiving/</guid>
+      <description>Colony Hackathon Submission A decentalized, self-perpuating, cross-border giving network on top of COLONY Project Description This project now lives at Goal: To create a self-perpetuating, decentralized, cross-borders, Giving Platform.
+Overview: We aim to create a platform where users can create projects, work on projects and fund projects to help people around the globe. By the nature of design of the platform, there is a complete transparency in the way the funding works and the way funds are disbursed.</description>
+    </item>
+    
+    <item>
+      <title>A content dashboard for storing, scraping and editing crawled articles.</title>
+      <link>/programming/content-crawler-dashboard/</link>
+      <pubDate>Tue, 28 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/programming/content-crawler-dashboard/</guid>
+      <description>Goals:  To create a comprehensive repository of blogposts from multiple sources. Shorten time required to find relevant items to post read and search. To provide our users a steady stream of content relevant to the Interests &amp;amp; Topics selected by them. Gain insights from the extracted content to create our own machine learning models for classifying items.  Phases  Phase 1
+ Setting up a scalable crawling infrastructure in the backend for extracting content from platforms with ready to use APIs eg.</description>
+    </item>
+    
+    <item>
+      <title>Digital Signature and Public Key Cryptography</title>
+      <link>/programming/public-key-cryptography/</link>
+      <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/programming/public-key-cryptography/</guid>
+      <description>&lt;h3 id=&#34;digital-signature&#34;&gt;Digital Signature&lt;/h3&gt;
+
+&lt;p&gt;Just like a written signature of a document, but it&amp;rsquo;s in digital form. The desired features:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Only you can sign your own signature&lt;/li&gt;
+&lt;li&gt;Everyone can verify your signature&lt;/li&gt;
+&lt;li&gt;A signature is tied to a certain document, it can&amp;rsquo;t be copied and used with other documents&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
