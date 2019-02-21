@@ -3,28 +3,38 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/blog/on-learning-compounded-growth/</loc>
+    <loc>/</loc>
+    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/startups/</loc>
+    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/deliberate-practice-and-compounded-growth-in-learning/</loc>
     <lastmod>2019-01-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/programming/blockgiving/</loc>
-    <lastmod>2018-09-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/programming/content-crawler-dashboard/</loc>
-    <lastmod>2017-11-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/deciding-what-to-build/</loc>
+    <loc>/startups/deciding-what-to-build-next/</loc>
     <lastmod>2017-07-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/programming/public-key-cryptography/</loc>
-    <lastmod>2018-05-15T00:00:00+00:00</lastmod>
+    <loc>/posts/</loc>
+    <lastmod>2019-01-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/</loc>
+    <lastmod>2018-08-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/code/</loc>
+    <lastmod>2017-05-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -33,33 +43,23 @@
   </url>
   
   <url>
-    <loc>/growth/</loc>
-    <lastmod>2018-04-09T00:00:00+00:00</lastmod>
+    <loc>/code/public-key-cryptography/</loc>
+    <lastmod>2017-05-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/startups/</loc>
-    <lastmod>2018-04-09T00:00:00+00:00</lastmod>
+    <loc>/projects/blockgiving-a-decentralized-giving-network/</loc>
+    <lastmod>2018-08-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/programming/</loc>
-    <lastmod>2018-04-09T00:00:00+00:00</lastmod>
+    <loc>/projects/scalabale-content-crawler/</loc>
+    <lastmod>2018-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/codelist/</loc>
-    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/</loc>
-    <lastmod>2019-01-28T00:00:00+00:00</lastmod>
+    <loc>/tags/blockchain/</loc>
+    <lastmod>2018-08-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -69,7 +69,50 @@
   </url>
   
   <url>
+    <loc>/tags/crawling/</loc>
+    <lastmod>2018-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/cryptogiving/</loc>
+    <lastmod>2018-08-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/dashboard/</loc>
+    <lastmod>2018-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/development/</loc>
+    <lastmod>2018-08-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/development/</loc>
+    <lastmod>2018-08-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/ethereum/</loc>
+    <lastmod>2018-08-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/scraping/</loc>
+    <lastmod>2018-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/</loc>
+    <lastmod>2018-08-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

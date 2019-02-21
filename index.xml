@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>BlitzLiving: on BlitzLiving</title>
+    <title>Home on BlitzLiving</title>
     <link>/</link>
-    <description>Recent content in BlitzLiving: on BlitzLiving</description>
+    <description>Recent content in Home on BlitzLiving</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>Copyright © 2008–2018; All rights reserved.</copyright>
+    <copyright>Copyright &amp;copy; 2017 - Halim</copyright>
     <lastBuildDate>Wed, 09 Apr 2014 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
@@ -13,53 +13,42 @@
     
     <item>
       <title>On Deliberate Practice and Compounded Growth in Learning</title>
-      <link>/blog/on-learning-compounded-growth/</link>
+      <link>/posts/deliberate-practice-and-compounded-growth-in-learning/</link>
       <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/blog/on-learning-compounded-growth/</guid>
+      <guid>/posts/deliberate-practice-and-compounded-growth-in-learning/</guid>
       <description>Skill is a result of focussed and consistent practice. When you are learning to improve, the initial rate of skill acquired is usually a flat line.
- A great quote from Ira Glass
- “What nobody tells people who are beginners — and I really wish someone had told this to me &amp;hellip; is that all of us who do creative work, we get into it because we have good taste.</description>
-    </item>
-    
-    <item>
-      <title>Building A Decentralized, self-perpetuating, transparent Giving Network</title>
-      <link>/programming/blockgiving/</link>
-      <pubDate>Fri, 28 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/programming/blockgiving/</guid>
-      <description>Colony Hackathon Submission A decentalized, self-perpuating, cross-border giving network on top of COLONY Project Description This project now lives at Github
-Goal: To create a self-perpetuating, decentralized, cross-borders, Giving Platform.
-Overview: We aim to create a platform where users can create projects, work on projects and fund projects to help people around the globe. By the nature of design of the platform, there is a complete transparency in the way the funding works and the way funds are disbursed.</description>
-    </item>
-    
-    <item>
-      <title>A content dashboard for storing, scraping and editing crawled articles.</title>
-      <link>/programming/content-crawler-dashboard/</link>
-      <pubDate>Tue, 28 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/programming/content-crawler-dashboard/</guid>
-      <description>Goals:  To create a comprehensive repository of blogposts from multiple sources. Shorten time required to find relevant items to post read and search. To provide our users a steady stream of content relevant to the Interests &amp;amp; Topics selected by them. Gain insights from the extracted content to create our own machine learning models for classifying items.  Phases  Phase 1
- Setting up a scalable crawling infrastructure in the backend for extracting content from platforms with ready to use APIs eg.</description>
+ A great quote from Ira Glass</description>
     </item>
     
     <item>
       <title>Deciding What To Build NEXT?</title>
-      <link>/blog/deciding-what-to-build/</link>
+      <link>/startups/deciding-what-to-build-next/</link>
       <pubDate>Fri, 28 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>/blog/deciding-what-to-build/</guid>
+      <guid>/startups/deciding-what-to-build-next/</guid>
       <description>Reposted from my original post Medium
-Deciding What To Build NEXT? – HelloMeets – Medium Product Managers are an interesting lot. Talk to any PM about their product and they would have a hundreds of different ideas about features they want to add to their product.
-With hundreds of ideas and feature requests from users inundating a PM&amp;rsquo;s ideabook, the question that often bothers a PM is deciding what to build next?</description>
+Deciding What To Build NEXT? – HelloMeets – Medium Product Managers are an interesting lot. Talk to any PM about their product and they would have a hundreds of different ideas about features they want to add to their product.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Wed, 09 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Avatar
+Hey There
+I am Halim, a CS graduate turned PM, I love brainstorming new ideas, bringing people together and getting stuff done.
+I have a strong interest in system design, cryptocurrencies, Decentralization and the future of humanity.</description>
     </item>
     
     <item>
       <title>Digital Signature and Public Key Cryptography</title>
-      <link>/programming/public-key-cryptography/</link>
-      <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
+      <link>/code/public-key-cryptography/</link>
+      <pubDate>Mon, 15 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>/programming/public-key-cryptography/</guid>
+      <guid>/code/public-key-cryptography/</guid>
       <description>&lt;h3 id=&#34;digital-signature&#34;&gt;Digital Signature&lt;/h3&gt;
 
 &lt;p&gt;Just like a written signature of a document, but it&amp;rsquo;s in digital form. The desired features:&lt;/p&gt;
@@ -72,26 +61,22 @@ With hundreds of ideas and feature requests from users inundating a PM&amp;rsquo
     </item>
     
     <item>
-      <title>About Halim</title>
-      <link>/about/</link>
-      <pubDate>Wed, 09 Jan 2019 00:00:00 +0000</pubDate>
+      <title>BlockGiving- A decentralized giving network</title>
+      <link>/projects/blockgiving-a-decentralized-giving-network/</link>
+      <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>/about/</guid>
-      <description>With this theme, it is possible to add small sections that only contains one page like this. It will automatically appears in the header, at the end.
-Avatar
-Hey There
-I am Halim, a CS graduate turned PM, I love brainstorming new ideas, bringing people together and getting stuff done.
-I have a strong interest in system design, cryptocurrencies, Decentralization and the future of humanity.
-I got interested in Product Management after attending a Google Develper Conference in India in Nov 2016 where I saw various Google PMs launching new features and talking about their projects on stage.</description>
+      <guid>/projects/blockgiving-a-decentralized-giving-network/</guid>
+      <description>Colony Hackathon Submission A decentalized, self-perpuating, cross-border giving network on top of COLONY Project Description This project now lives at Github
+Goal: To create a self-perpetuating, decentralized, cross-borders, Giving Platform.</description>
     </item>
     
     <item>
-      <title>List of Engineering Resources</title>
-      <link>/codelist/</link>
-      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
+      <title>Designing a scalabale content crawler with a dashboard</title>
+      <link>/projects/scalabale-content-crawler/</link>
+      <pubDate>Mon, 02 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/codelist/</guid>
-      <description>Developers Blogs  The Irrationally Supportive Mentor | Lukas Biewald CROWDFLOWER Founder &amp;ldquo;https://lukasbiewald.com/2013/10/09/the-irrationally-supportive-mentor/ &amp;ldquo; Brendan Eich JoelSpolsky CodinHorror VitaliK.ca Balaji Srinivasan Andrew Chen a16z blog USV blog Naval Pmarca Mozilla&amp;rsquo;s Blog boz.com jvns.ca recurse center The Benjamin Franklin Method of Reading Programming Books | Path-Sensitive &amp;ldquo;http://www.pathsensitive.com/2018/01/the-benjamin-franklin-method-of-reading.html &amp;ldquo; Robert Heaton &amp;ldquo;https://robertheaton.com/ &amp;ldquo; Mubashar &amp;ldquo;MUBS&amp;rdquo; Iqbal - CTO For Hire #explore &amp;ldquo;http://mubs.me/ &amp;ldquo; https://techpack.acm.org/about.cfm #reading #articles Wishful Programming &amp;ldquo;https://blog.thesoftwarecraft.com/2013/11/wishful-programming.html &amp;ldquo; Blog - Zer0 Degree: Archy&amp;rsquo;s Blog &amp;ldquo;https://zer0.</description>
+      <guid>/projects/scalabale-content-crawler/</guid>
+      <description>Goals:  To create a comprehensive repository of blogposts from multiple sources. Shorten time required to find relevant items to post read and search. To provide our users a steady stream of content relevant to the Interests &amp;amp; Topics selected by them.</description>
     </item>
     
   </channel>

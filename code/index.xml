@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Code on BlitzLiving</title>
+    <link>/code/</link>
+    <description>Recent content in Code on BlitzLiving</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright &amp;copy; 2017 - Halim</copyright>
+    <lastBuildDate>Mon, 15 May 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/code/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Digital Signature and Public Key Cryptography</title>
+      <link>/code/public-key-cryptography/</link>
+      <pubDate>Mon, 15 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/code/public-key-cryptography/</guid>
+      <description>&lt;h3 id=&#34;digital-signature&#34;&gt;Digital Signature&lt;/h3&gt;
+
+&lt;p&gt;Just like a written signature of a document, but it&amp;rsquo;s in digital form. The desired features:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Only you can sign your own signature&lt;/li&gt;
+&lt;li&gt;Everyone can verify your signature&lt;/li&gt;
+&lt;li&gt;A signature is tied to a certain document, it can&amp;rsquo;t be copied and used with other documents&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -5,10 +5,74 @@
     <link>/tags/</link>
     <description>Recent content in Tags on BlitzLiving</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>Copyright © 2008–2018; All rights reserved.</copyright>
+    <copyright>Copyright &amp;copy; 2017 - Halim</copyright>
+    <lastBuildDate>Thu, 02 Aug 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Blockchain</title>
+      <link>/tags/blockchain/</link>
+      <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/blockchain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Crawling</title>
+      <link>/tags/crawling/</link>
+      <pubDate>Mon, 02 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/crawling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cryptogiving</title>
+      <link>/tags/cryptogiving/</link>
+      <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/cryptogiving/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dashboard</title>
+      <link>/tags/dashboard/</link>
+      <pubDate>Mon, 02 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/dashboard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Development</title>
+      <link>/tags/development/</link>
+      <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ethereum</title>
+      <link>/tags/ethereum/</link>
+      <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/ethereum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scraping</title>
+      <link>/tags/scraping/</link>
+      <pubDate>Mon, 02 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/scraping/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

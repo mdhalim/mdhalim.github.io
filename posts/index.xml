@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blurbs on BlitzLiving</title>
+    <link>/posts/</link>
+    <description>Recent content in Blurbs on BlitzLiving</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright &amp;copy; 2017 - Halim</copyright>
+    <lastBuildDate>Mon, 28 Jan 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>On Deliberate Practice and Compounded Growth in Learning</title>
+      <link>/posts/deliberate-practice-and-compounded-growth-in-learning/</link>
+      <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/deliberate-practice-and-compounded-growth-in-learning/</guid>
+      <description>Skill is a result of focussed and consistent practice. When you are learning to improve, the initial rate of skill acquired is usually a flat line.
+ A great quote from Ira Glass</description>
+    </item>
+    
+  </channel>
+</rss>

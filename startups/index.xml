@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>On Startups on BlitzLiving</title>
+    <title>On StartUps on BlitzLiving</title>
     <link>/startups/</link>
-    <description>Recent content in On Startups on BlitzLiving</description>
+    <description>Recent content in On StartUps on BlitzLiving</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>Copyright © 2008–2018; All rights reserved.</copyright>
-    <lastBuildDate>Mon, 09 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <copyright>Copyright &amp;copy; 2017 - Halim</copyright>
+    <lastBuildDate>Wed, 09 Apr 2014 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/startups/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Deciding What To Build NEXT?</title>
+      <link>/startups/deciding-what-to-build-next/</link>
+      <pubDate>Fri, 28 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/startups/deciding-what-to-build-next/</guid>
+      <description>Reposted from my original post Medium
+Deciding What To Build NEXT? – HelloMeets – Medium Product Managers are an interesting lot. Talk to any PM about their product and they would have a hundreds of different ideas about features they want to add to their product.</description>
+    </item>
     
   </channel>
 </rss>
