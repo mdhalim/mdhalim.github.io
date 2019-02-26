@@ -18,6 +18,11 @@
   </url>
   
   <url>
+    <loc>/startups/pm-workflow/</loc>
+    <lastmod>2019-01-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/startups/why-startup/</loc>
     <lastmod>2018-10-28T00:00:00+00:00</lastmod>
   </url>
@@ -39,7 +44,7 @@
   
   <url>
     <loc>/programming/</loc>
-    <lastmod>2018-08-02T00:00:00+00:00</lastmod>
+    <lastmod>2019-02-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -59,7 +64,7 @@
   
   <url>
     <loc>/programming/blockgiving/</loc>
-    <lastmod>2018-08-02T00:00:00+00:00</lastmod>
+    <lastmod>2019-02-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -69,7 +74,7 @@
   
   <url>
     <loc>/tags/blockchain/</loc>
-    <lastmod>2018-08-02T00:00:00+00:00</lastmod>
+    <lastmod>2019-02-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -86,7 +91,7 @@
   
   <url>
     <loc>/tags/cryptogiving/</loc>
-    <lastmod>2018-08-02T00:00:00+00:00</lastmod>
+    <lastmod>2019-02-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -97,20 +102,20 @@
   </url>
   
   <url>
-    <loc>/tags/development/</loc>
-    <lastmod>2018-08-02T00:00:00+00:00</lastmod>
+    <loc>/categories/development/</loc>
+    <lastmod>2019-02-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/development/</loc>
-    <lastmod>2018-08-02T00:00:00+00:00</lastmod>
+    <loc>/tags/development/</loc>
+    <lastmod>2019-02-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/ethereum/</loc>
-    <lastmod>2018-08-02T00:00:00+00:00</lastmod>
+    <lastmod>2019-02-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -122,7 +127,7 @@
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2018-08-02T00:00:00+00:00</lastmod>
+    <lastmod>2019-02-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

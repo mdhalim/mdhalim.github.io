@@ -22,6 +22,15 @@
     </item>
     
     <item>
+      <title>The PM Workflow</title>
+      <link>/startups/pm-workflow/</link>
+      <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/startups/pm-workflow/</guid>
+      <description>Having a shared understanding of the Product Development process at any startup is arguably one of the most important thing at a startup. At a very early stage when there are just 4 founders, hacking together a product, having a streamlined process of planning, roadmapping and QA might not be hugely important.</description>
+    </item>
+    
+    <item>
       <title>Why startup?</title>
       <link>/startups/why-startup/</link>
       <pubDate>Sun, 28 Oct 2018 00:00:00 +0000</pubDate>
@@ -82,7 +91,7 @@ I have a strong interest in system design, cryptocurrencies, Decentralization an
     <item>
       <title>BlockGiving- A decentralized giving network</title>
       <link>/programming/blockgiving/</link>
-      <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 02 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>/programming/blockgiving/</guid>
       <description>Colony Hackathon Submission A decentalized, self-perpuating, cross-border giving network on top of COLONY Project Description This project now lives at Github
